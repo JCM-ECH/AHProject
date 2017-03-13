@@ -1,0 +1,283 @@
+/***********************
+General
+***********************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  color : #6ab476;
+  border-color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0 
+}
+
+
+
+/***********************
+Heading
+***********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Vollkorn', cursive;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+
+
+/***********************
+Navigation
+***********************/
+
+nav { 
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/***********************
+Footer
+***********************/
+
+footer { 
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon { 
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/***********************
+Page: Portfolio
+***********************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #6BB362;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdeeff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/***********************
+Page: About
+***********************/
+
+.profile-photo {
+  clear: both;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/***********************
+Page: Contact
+***********************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 3px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+
+
+
+/***********************
+Color
+***********************/
+
+/* site body */
+body {
+  background-color: #6BB362;
+}
+
+#wrapper {
+  color: #fff;
+}
+
+/* nav background on mobile */
+nav {
+  background: #2D7A38;
+  border-color: #fff;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #00ff00;
+}
+
+/* nav link */
+nav ul, nav a:visited {
+  color: #000;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #6BB362;
+}
+
+#civil, #history, #pbs, #librarian, #women, #latin, #wiki, #fred{
+  color: #fff;
+}
+
+footer {
+  color: #000;
+}
+
+/***********************
+Table
+***********************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #5CB579;
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+  background: #2D7A38;
+  color: #fff;
+}
+
+ /*#8a97a0*/
+
+thead th {
+  font-weight: 400;
+  color: #2D7A38;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+  color: #2D7A38;
+}
+
+/*tr:nth-child(even) {
+  background: #e8eeef;
+}*/
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #88b1bb;
+}
